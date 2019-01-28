@@ -1,0 +1,112 @@
+div {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#mainPageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#headerContainer {
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+#navigationBarContainer {
+  flex-basis: 10%;
+  flex-direction: row;
+  display: flex;
+}
+
+#contentContainer {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+#adsLeftContainer {
+  flex-basis: 5%;
+}
+
+#adsRightContainer {
+  flex-basis: 5%;
+}
+
+#productsContentContainer {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+#footerContainer {
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+#dealOfTheDayContainer {
+  flex-basis: 20%;
+}
+
+#bikesContainer {
+  flex-basis: 40%;
+}
+
+#carsContainer {
+  flex-basis: 40%;
+}
+
+#headerIconContainer {
+  flex-basis: 10%;
+} 
+
+#headerText {
+  flex-basis: 80%;
+}
+
+#userLoginControlContainer {
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+#userNameContainer {
+  flex-basis: 50%;
+}
+
+#userLogoffContainer {
+  flex-basis: 50%;
+}
+
+#homeLink, #dealsLink, #bikesLink, #carsLink, #trackOrderLink, #profileLink {
+  flex-grow: 1;
+}
+
+#copyrightContainer {
+  flex-basis: 15%;
+}
+
+#disclaimerContainer {
+  flex-basis: 70%
+}
+
+#footerLinksContainer {
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactUsLink {
+  flex-basis: 33%;
+}
+
+#policiesLink {
+  flex-basis: 34%;
+}
+
+#guidelinesLink {
+  flex-basis: 33%;
+}
